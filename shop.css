@@ -1,0 +1,60 @@
+.heading {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.card {
+    min-height: 300px;
+    text-align: start;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card h2, .card p {
+    margin: 3px 0;
+    padding: 3 5px;
+}
+
+.card-image{
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-image {
+    opacity: 0;
+}
+
+.card-hover-image {
+    position: absolute;
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-hover-image {
+    opacity: 1;
+}
+
+.card:hover {
+    cursor: pointer;
+}
