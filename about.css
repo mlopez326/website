@@ -53,16 +53,32 @@
   color: #666;
 }
 
+.about-quote h2 {
+    color: black;
+}
+
 .quote-image {
     width: 20%;
 }
 
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+}
 
+p {
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family:'Merriweather', serif;
+    font-style: normal;
+    font-weight: 50;
+}
+
+h1 {
+    font-weight: 700;
 }
 
 .container {

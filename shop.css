@@ -5,8 +5,6 @@
     padding-left: 10px;
 }
 
-
-
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +23,15 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+}
+
+h1, h2, h3 {
+    font-family:'Merriweather', serif;
+    font-weight: 50;
+}
+
+p {
+    font-family: 'Glacial Indifference', sans-serif;
 }
 
 .card h2, .card p {
